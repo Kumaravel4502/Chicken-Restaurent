@@ -1,0 +1,151 @@
+.container {
+    height: 95vh;
+    background-image: url('https://ik.imagekit.io/ixthr16gh/Self-Assesment/chicken.png');
+    background-repeat: no-repeat;
+    padding: 0 35px;
+    margin: 0 auto;
+    border: 1px solid #707070;
+}
+
+@media screen and (max-width: 600px) {
+
+    body,
+    .container {
+        width: 80%;
+    }
+}
+
+.Site-logo {
+    width: 50px;
+    float: right;
+}
+
+.header {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+
+.redline {
+    top: 271px;
+    left: 89px;
+    width: 0px;
+    height: 297px;
+}
+
+.long {
+    top: 271px;
+    left: 89px;
+    width: 0px;
+    height: 85px;
+    border: 3px solid #d85a5a;
+    opacity: 1;
+}
+
+.Site-Title {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title-head {
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.About {
+    color: #D85A5A;
+    display: block;
+    position: absolute;
+    margin-top: 45px;
+    top: 88px;
+    left: 60px;
+}
+
+.long {
+    color: #D85A5A;
+    height: 185px;
+}
+
+.small {
+    height: 12px;
+    opacity: 1;
+    margin-top: 35px;
+    border: 3px solid #d85a5a;
+}
+
+.Grilled {
+    color: #000000;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text {
+    color: #9E7474;
+}
+
+.textl {
+    margin-top: 25px;
+}
+
+
+h1 {
+    font-family: Arial, sans-serif;
+    font: bold;
+    font-weight: 500px;
+}
+
+.Menu-button {
+    width: 100px;
+    background-color: #D85A5A;
+    color: white;
+    border: none;
+    border-radius: 60px;
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 10px;
+}
+
+.table-button {
+    width: 100px;
+    background-color: #ffffff;
+    color: #D85A5A;
+    box-shadow: 1px 1px 2px #857979;
+    border: none;
+    border-radius: 60px;
+    padding: 10px;
+    margin-top: 60px;
+    font-size: 10px;
+}
+
+.buttons {
+    position: relative;
+    left: 30px;
+    margin: 20px;
+
+}
+
+.Menu-button:hover {
+    color: #ffffff;
+    background-color: #000000;
+    box-shadow: 1px 1px 5px #857979;
+}
+
+.table-button:hover {
+    color: #ffffff;
+    background-color: #D85A5A;
+}
+
+.lunch {
+    font-size: medium;
+    padding: 5px;
+}
+
+.time {
+    font-size: small;
+    color: #9E7474;
+    opacity: 0.5;
+}
+
+.Arrow {
+
+    margin-left: 80px;
+}
